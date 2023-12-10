@@ -1,0 +1,244 @@
+
+@font-face {
+   font-family:Bian;
+   src: url(Fonts/BianZhiDai-ring.otf);
+}
+
+@font-face {
+   font-family: Terminal;
+   src: url(Fonts/terminal-grotesque.ttf);
+}
+
+@font-face {
+   font-family: Cotham;
+   src: url(Fonts/CothamSans.otf)
+}
+
+@font-face {
+   font-family: Mplus;
+   src: url(Fonts/mplus-1m-regular.ttf);
+}
+
+@font-face {
+   font-family:Resistance;
+   src: url(Fonts/Resistance\ générale.otf);
+}
+
+body {
+   padding-top: 00px; /
+   overflow-x: hidden; 
+            margin: 0;
+            padding: 0;
+
+}
+
+
+p{
+   font-family: Mplus;
+}
+
+.navbar {
+   background-color: #0b1606;
+}
+
+.navbar-brand img {
+   max-height: 40px; 
+}
+
+.navbar-nav {
+   margin: left;
+   font-family:Mplus;
+   color: #fff;
+}
+
+#carouselSection {
+   background-color: #1e2022; 
+   padding: 0;
+   height: 476px;
+}
+
+
+
+
+#hoverScrollTextSection {
+   background-color: #0b1606; 
+   color: #fff;
+    text-align: left;
+    height: 100px;
+   
+    
+}
+
+#hoverScrollText {
+   overflow: hidden;
+   font-family: Terminal;
+   font-size: 80px;
+   padding bottom: 45px;
+   white-space: nowrap;
+   display: inline-block;
+   cursor: pointer;
+   transition: transform 25s;
+}
+
+#hoverScrollText:hover {
+   transform: translateX(-100%);
+   
+}
+
+
+
+#about{
+   background-color: #d00000;
+   color: #fff;
+   padding: 20px;
+}
+
+
+
+body::-webkit-scrollbar {
+   width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+   background-color: #3e3230b8;
+   border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+   background-color: #000000;
+}
+
+body::-webkit-scrollbar {
+   height: 5px; /* Set the height of the horizontal scrollbar */
+}
+
+body::-webkit-scrollbar-thumb {
+   background-color: #bc1313; /* Set the color of the scrollbar thumb */
+}
+
+body::-webkit-scrollbar-track {
+   background-color: #000000; /* Set the color of the scrollbar track */
+}
+
+p{
+   color: #fff;
+}
+
+#card-title{
+   color: #fff;
+}
+
+#btn btn-primary project-button{
+   background-color: #0b1606;
+   color: #d00000;
+}
+
+#projects{
+   background-color: #d00000;
+   color: ;
+}
+
+#contact{
+   background-color: #0b1606;
+}
+
+#card-body{
+   background-color: #d00000;
+}
+
+#aboutContent{
+   display:flex;
+   padding: 30px;
+   
+}
+
+#aboutText{
+   padding: 20px;
+   padding-right: 100px;
+}
+
+#carouselHeading h2{
+   color: #d00000;
+   text-align: center;
+   font-family:Terminal;
+   font-size: 270px;
+   padding-top: 50px;
+   position: sticky;
+}
+
+#d-block w-100{
+   margin: 0px;
+}
+
+#projects h2{
+   font-family:Resistance;
+   text-shadow: #1e2022;
+  padding: 25px;
+   font-size: 100px;
+  text-align: center;
+  color: #fff;
+}
+
+#about h3{
+   font-family: Resistance;
+   font-size: 100px;
+   padding-top: 20px;
+}
+
+.row{
+   padding: 30px;
+}
+
+#contact
+{
+   padding-top: 45px;
+}
+
+.section {
+   max-width: 1600px;
+   border-top: 1px solid #ddd;
+   padding: 20px;
+   border-bottom: 1px solid #ddd;
+   overflow: hidden;
+}
+
+
+
+.section p {
+   text-align: justify;
+   padding: 20px;
+   padding-top: 0%;
+}
+
+.section img {
+   float: right;
+   margin: 0 0 10px 10px;
+   max-width: 100%;
+   height: auto;
+   padding-left: 20px;
+}
+
+.section2 {
+   max-width: 1600px;
+   border-top: 1px solid #ddd;
+   padding: 20px;
+   border-bottom: 1px solid #ddd;
+   overflow: hidden;
+}
+
+
+
+.section2 p {
+   text-align: right;
+   padding: 20px;
+   padding-top: 0%;
+}
+
+.section2 img {
+   float: left;
+   margin: 0 0 10px 10px;
+   max-width: 100%;
+   height: auto;
+   padding-right: 20px;
+
+   
